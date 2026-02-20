@@ -54,8 +54,6 @@ The dashboard provides executive-level visibility into hotel performance by comb
 
 The design prioritizes clarity, comparability, and actionable insight rather than visual complexity.
 
-![Hotel Performance Dashboard](/assets/images/hotel-dashboard-overview.png)
-
 ---
 
 ## Key Insights
