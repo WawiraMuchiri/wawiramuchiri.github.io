@@ -3,12 +3,8 @@ title: "HR Analytics Dashboard - Data Visualization using Tableau"
 date: 2026-02-17
 categories: [Data, Tableau, HR Analytics]
 tags: [Tableau, HR, Business Intelligence, Data Visualization]
-layout: post
-comments: true
+image: /assets/images/dashboard-hr-summary.png
 ---
-
-<!-- Hero Image -->
-![Main Summary Dashboard](/assets/images/dashboard-hr-summary.png)
 
 # HR Analytics Dashboard – Tableau
 
