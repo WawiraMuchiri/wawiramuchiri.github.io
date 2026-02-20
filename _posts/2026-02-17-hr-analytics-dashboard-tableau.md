@@ -7,6 +7,9 @@ layout: post
 comments: true
 ---
 
+<!-- Hero Image -->
+![Main Summary Dashboard](/assets/images/dashboard-hr-summary.png)
+
 # HR Analytics Dashboard – Tableau
 
 **Project Overview**  
@@ -33,9 +36,9 @@ Organizations often struggle to get a clear view of workforce trends, demographi
 ## Dashboards
 
 ### Main Summary Dashboard
-This dashboard provides **high-level HR insights** for executives, showing overall workforce size, hiring trends, demographics, and compensation patterns.
+This dashboard provides **high-level HR insights** for executives, showing overall workforce size, hiring trends, demographics, and compensation patterns.  
 
-![Main Summary Dashboard](/assets/images/dashboard-hr-summary.png)
+*(Dashboard image displayed at the top of the post.)*
 
 ### HR Detailed Employee Records Dashboard
 This dashboard allows **drill-down analysis** at the employee level, enabling HR teams to evaluate tenure, role alignment, salaries, and geographic distribution.
