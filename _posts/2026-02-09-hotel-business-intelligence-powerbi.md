@@ -43,19 +43,18 @@ The focus was not on technical complexity, but on delivering reliable, decision-
 
 ---
 
-## Executive Dashboard
+## 📊 Dashboard Design & Executive Insights
 
-![Hotel Performance Dashboard](/assets/images/hotel-dashboard-overview.png)
-
-The dashboard enables stakeholders to:
+The dashboard provides executive-level visibility into hotel performance by combining financial and operational KPIs in a single decision-ready interface. It enables stakeholders to:
 
 - Monitor revenue, ADR, RevPAR, and occupancy in real time  
-- Identify high and low demand periods  
-- Compare room category contribution to total revenue  
-- Analyze trends across cities and booking segments  
-- Evaluate pricing strategy impact on revenue performance  
+- Identify seasonal demand shifts and revenue fluctuations  
+- Compare room category profitability and utilization  
+- Analyze performance across cities, time periods, and room classes using interactive filters  
 
-The design prioritizes clarity, interpretability, and business impact over visual clutter.
+The design prioritizes clarity, comparability, and actionable insight rather than visual complexity.
+
+![Hotel Performance Dashboard](/assets/images/hotel-dashboard-overview.png)
 
 ---
 
