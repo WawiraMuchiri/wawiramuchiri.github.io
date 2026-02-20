@@ -16,17 +16,15 @@ The objective was to transform structured hospitality datasets into clear, decis
 
 ## 🧩 Business Problem
 
-Hotel management teams require visibility into:
+Hotel management teams require structured visibility into:
 
-- Occupancy trends
-- Revenue drivers
-- Seasonal demand patterns
-- Room category performance
+- Occupancy trends  
+- Revenue drivers  
+- Seasonal demand fluctuations  
+- Room category performance  
 - Pricing effectiveness (ADR & RevPAR)
 
-Without structured analytics, decisions become reactive rather than data-driven.
-
-This project addresses that gap by implementing a structured BI workflow using Power BI.
+Without consolidated analytics, decisions become reactive rather than data-driven. This project addresses that gap through structured modeling and KPI development.
 
 ---
 
@@ -39,12 +37,12 @@ Using Power Query Editor:
   - `fact_aggregated_bookings`
   - `dim_date`
   - `dim_rooms`
-- Corrected data types
-- Promoted headers
-- Removed irrelevant columns
-- Renamed fields for clarity and consistency
+- Corrected data types  
+- Promoted headers  
+- Removed unnecessary columns  
+- Renamed fields for clarity and consistency  
 
-All transformations ensured clean, analysis-ready data aligned with modeling best practices.
+These transformations ensured analysis-ready data aligned with modeling best practices.
 
 ---
 
@@ -52,11 +50,11 @@ All transformations ensured clean, analysis-ready data aligned with modeling bes
 
 Implemented a star schema design:
 
-- Central fact table
-- One-to-many relationships to dimension tables (date, room category)
-- Optimized for performance and analytical scalability
+- Central fact table  
+- One-to-many relationships to dimension tables (date, room category)  
+- Optimized structure for performance and scalability  
 
-This structure improved query efficiency and enabled reliable KPI calculations.
+This model enabled efficient KPI computation and reliable analytical outputs.
 
 ---
 
@@ -64,56 +62,53 @@ This structure improved query efficiency and enabled reliable KPI calculations.
 
 Developed calculated columns and measures using DAX, including:
 
-- Total Revenue
-- Occupancy Rate
-- ADR (Average Daily Rate)
-- RevPAR
-- Week-over-Week Change Metrics
-- Weekend vs Weekday classification logic
+- Total Revenue  
+- Occupancy Rate  
+- ADR (Average Daily Rate)  
+- RevPAR  
+- Week-over-Week performance metrics  
+- Weekend vs Weekday classification logic  
 
-These dynamic measures enabled time-based performance tracking and comparative analysis.
+These dynamic measures enabled time-based analysis and comparative performance tracking.
 
 ---
 
-## 📊 Final Dashboard
+## 📊 Dashboard Design & Executive Insights
 
-![Hotel Performance Dashboard](/assets/images/hotel-dashboard-overview.png)
+The dashboard provides executive-level visibility into hotel performance by combining financial and operational KPIs in a single decision-ready interface.
 
-The dashboard integrates:
+It enables stakeholders to:
 
-- KPI Cards for revenue, ADR, RevPAR, and occupancy
-- Revenue and occupancy trend analysis
-- Room category comparison visuals
-- Interactive slicers (city, room class, time period)
+- Monitor revenue, ADR, RevPAR, and occupancy in real time  
+- Identify seasonal demand shifts and revenue fluctuations  
+- Compare room category profitability and utilization  
+- Analyze performance across cities, time periods, and room classes using interactive filters  
+
+The design prioritizes clarity, comparability, and actionable insight rather than visual complexity.
 
 ---
 
 ## 🔎 Key Business Insights
 
-- Clear seasonal demand fluctuations across the timeline
-- Certain room categories consistently outperform others
-- Revenue performance is influenced by pricing strategy, not occupancy alone
-- Low-demand periods reveal room underutilization opportunities
-- Time-based performance monitoring supports proactive decision-making
+- Seasonal demand fluctuations are clearly visible across the timeline  
+- Certain room categories consistently outperform others in revenue contribution  
+- Revenue performance is influenced by pricing strategy, not occupancy alone  
+- Low-demand cycles reveal opportunities for targeted promotional strategies  
+- Time-based monitoring supports proactive operational decision-making  
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Star Schema Data Modeling
+- Power BI Desktop  
+- Power Query  
+- DAX  
+- Star Schema Data Modeling  
 
 ---
 
 ## 🎯 Outcome
 
-This project demonstrates:
+This project demonstrates structured data modeling, advanced DAX application, and business-focused dashboard design.
 
-- Structured data modeling skills
-- DAX proficiency
-- Business-focused analytical thinking
-- Dashboard design for executive-level decision support
-
-It reflects my ability to transform raw hospitality data into actionable Business Intelligence insights.
+It reflects my ability to transform raw hospitality data into actionable Business Intelligence insights that support informed decision-making.
