@@ -1,114 +1,80 @@
 ---
-title: "Hotel Performance Dashboard – Power BI Business Intelligence Project"
+title: "Hotel Performance Dashboard – Business Intelligence Project"
 date: 2026-02-09
 categories: [Business Intelligence, Power BI]
-tags: [powerbi, dax, data-modeling, analytics, star-schema]
+tags: [powerbi, analytics, dashboard, business-intelligence]
 image: /assets/images/hotel-dashboard-overview.png
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-This project applies Business Intelligence techniques using Power BI to analyze hotel management data and deliver an interactive dashboard that supports operational and strategic decision-making.
+This project delivers an executive-level Hotel Performance Dashboard built in Power BI to provide clear visibility into revenue performance, occupancy trends, pricing effectiveness, and room utilization.
 
-The objective was to transform structured hospitality datasets into clear, decision-ready insights on revenue performance, occupancy trends, pricing effectiveness, and room utilization.
+The objective was to transform structured hospitality data into a centralized decision-support system that enables proactive operational and strategic decision-making.
 
 ---
 
-## 🧩 Business Problem
+## Business Challenge
 
-Hotel management teams require structured visibility into:
+Hotel management requires consolidated insight into:
 
-- Occupancy trends  
-- Revenue drivers  
+- Revenue performance drivers  
+- Occupancy patterns across time  
+- Pricing effectiveness (ADR & RevPAR)  
+- Room category profitability  
 - Seasonal demand fluctuations  
-- Room category performance  
-- Pricing effectiveness (ADR & RevPAR)
 
-Without consolidated analytics, decisions become reactive rather than data-driven. This project addresses that gap through structured modeling and KPI development.
+Without integrated analytics, decisions are reactive and fragmented. This dashboard addresses that gap by aligning financial and operational KPIs into a single performance view.
 
 ---
 
-## 🔄 Data Preparation & Transformation
+## Analytical Approach
 
-Using Power Query Editor:
+The solution was built using a structured data model optimized for performance and scalability.
 
-- Imported fact and dimension tables:
-  - `fact_bookings`
-  - `fact_aggregated_bookings`
-  - `dim_date`
-  - `dim_rooms`
-- Corrected data types  
-- Promoted headers  
-- Removed unnecessary columns  
-- Renamed fields for clarity and consistency  
+Key components included:
 
-These transformations ensured analysis-ready data aligned with modeling best practices.
+- Cleaned and transformed booking datasets  
+- Implemented a star schema data model  
+- Developed dynamic KPIs using DAX  
+- Built time-based and comparative performance metrics  
+
+The focus was not on technical complexity, but on delivering reliable, decision-ready metrics.
 
 ---
 
-## 🏗 Data Modeling – Star Schema
+## Executive Dashboard
 
-Implemented a star schema design:
+![Hotel Performance Dashboard](/assets/images/hotel-dashboard-overview.png)
 
-- Central fact table  
-- One-to-many relationships to dimension tables (date, room category)  
-- Optimized structure for performance and scalability  
-
-This model enabled efficient KPI computation and reliable analytical outputs.
-
----
-
-## 📊 DAX Measures & KPI Development
-
-Developed calculated columns and measures using DAX, including:
-
-- Total Revenue  
-- Occupancy Rate  
-- ADR (Average Daily Rate)  
-- RevPAR  
-- Week-over-Week performance metrics  
-- Weekend vs Weekday classification logic  
-
-These dynamic measures enabled time-based analysis and comparative performance tracking.
-
----
-
-## 📊 Dashboard Design & Executive Insights
-
-The dashboard provides executive-level visibility into hotel performance by combining financial and operational KPIs in a single decision-ready interface.
-
-It enables stakeholders to:
+The dashboard enables stakeholders to:
 
 - Monitor revenue, ADR, RevPAR, and occupancy in real time  
-- Identify seasonal demand shifts and revenue fluctuations  
-- Compare room category profitability and utilization  
-- Analyze performance across cities, time periods, and room classes using interactive filters  
+- Identify high and low demand periods  
+- Compare room category contribution to total revenue  
+- Analyze trends across cities and booking segments  
+- Evaluate pricing strategy impact on revenue performance  
 
-The design prioritizes clarity, comparability, and actionable insight rather than visual complexity.
-
----
-
-## 🔎 Key Business Insights
-
-- Seasonal demand fluctuations are clearly visible across the timeline  
-- Certain room categories consistently outperform others in revenue contribution  
-- Revenue performance is influenced by pricing strategy, not occupancy alone  
-- Low-demand cycles reveal opportunities for targeted promotional strategies  
-- Time-based monitoring supports proactive operational decision-making  
+The design prioritizes clarity, interpretability, and business impact over visual clutter.
 
 ---
 
-## 🛠 Tools & Technologies
+## Key Insights
 
-- Power BI Desktop  
-- Power Query  
-- DAX  
-- Star Schema Data Modeling  
+- Revenue fluctuations are strongly influenced by pricing strategy, not occupancy alone  
+- Certain room categories consistently outperform others in profitability  
+- Seasonal demand patterns highlight clear optimization windows  
+- Low-demand periods present targeted promotional opportunities  
+- Time-based KPI monitoring enables proactive resource planning  
 
 ---
 
-## 🎯 Outcome
+## Outcome
 
-This project demonstrates structured data modeling, advanced DAX application, and business-focused dashboard design.
+This project demonstrates my ability to:
 
-It reflects my ability to transform raw hospitality data into actionable Business Intelligence insights that support informed decision-making.
+- Structure analytical models for performance and scalability  
+- Develop meaningful KPIs aligned to business objectives  
+- Translate raw operational data into executive-level insight  
+
+The result is a scalable Business Intelligence solution that supports informed decision-making within the hospitality industry.
