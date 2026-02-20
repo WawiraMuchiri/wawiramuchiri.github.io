@@ -1,6 +1,6 @@
 ---
 title: "Hotel Performance Dashboard – Power BI Business Intelligence Project"
-date: 2026-02-21
+date: 2026-02-09
 categories: [Business Intelligence, Power BI]
 tags: [powerbi, dax, data-modeling, analytics, star-schema]
 image: /assets/images/hotel-dashboard-overview.png
