@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hotel Performance Dashboard – Business Intelligence With Power BI"
 date: 2026-02-09
 categories: [Business Intelligence, Power BI]
