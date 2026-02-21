@@ -17,6 +17,19 @@ description: >-
 url: "https://wawiramuchiri.github.io"
 baseurl: ""
 
+# ------------------ NAVIGATION MENU ------------------
+menu:
+  - title: Home
+    url: /
+  - title: Resume
+    url: /resume/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /posts/
+  - title: Contact
+    url: /#contact
+
 # ------------------ SOCIAL & CONTACT ------------------
 github:
   username: WawiraMuchiri
