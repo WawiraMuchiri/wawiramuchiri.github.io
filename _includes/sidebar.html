@@ -7,106 +7,31 @@
   </div>
 
   <!-- Navigation -->
-  <ul class="sidebar-nav">
+  <ul class="sidebar-nav mt-4">
     <li>
-      <a href="{{ '/' | relative_url }}">
-        <i class="fas fa-home"></i> Home
-      </a>
+      <a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Home</a>
     </li>
     <li class="active">
-      <a href="{{ '/resume/' | relative_url }}">
-        <i class="fas fa-file-alt"></i> Resume
-      </a>
+      <a href="{{ '/resume/' | relative_url }}"><i class="fas fa-file-alt"></i> Resume</a>
     </li>
     <li>
-      <a href="{{ '/categories/' | relative_url }}">
-        <i class="fas fa-list"></i> Categories
-      </a>
+      <a href="{{ '/projects/' | relative_url }}"><i class="fas fa-project-diagram"></i> Projects</a>
     </li>
     <li>
-      <a href="{{ '/tags/' | relative_url }}">
-        <i class="fas fa-tag"></i> Tags
-      </a>
+      <a href="{{ '/categories/' | relative_url }}"><i class="fas fa-list"></i> Categories</a>
     </li>
     <li>
-      <a href="{{ '/archives/' | relative_url }}">
-        <i class="fas fa-archive"></i> Archives
-      </a>
+      <a href="{{ '/tags/' | relative_url }}"><i class="fas fa-tag"></i> Tags</a>
+    </li>
+    <li>
+      <a href="{{ '/archives/' | relative_url }}"><i class="fas fa-archive"></i> Archives</a>
     </li>
   </ul>
 
-  <!-- Social Links -->
-  <div class="sidebar-social mt-4 text-center">
+  <!-- Social Links (bottom) -->
+  <div class="sidebar-social mt-auto text-center">
     <a href="https://linkedin.com/in/rosalyne" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/rosalyne" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://twitter.com/rosalyne" target="_blank"><i class="fab fa-twitter"></i></a>
   </div>
 </div>
-
-<style>
-.sidebar {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.sidebar-profile img.profile-pic {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border: 3px solid #4f46e5; /* accent color */
-  margin-bottom: 10px;
-}
-
-.sidebar-profile h3 {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
-.sidebar-profile p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #6b7280;
-}
-
-.sidebar-nav {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.sidebar-nav li {
-  margin-bottom: 10px;
-}
-
-.sidebar-nav li a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #111827;
-  padding: 8px 12px;
-  border-radius: 6px;
-  transition: background-color 0.2s;
-}
-
-.sidebar-nav li a i {
-  margin-right: 8px;
-}
-
-.sidebar-nav li a:hover,
-.sidebar-nav li.active a {
-  background-color: #4f46e5;
-  color: #fff;
-}
-
-.sidebar-social a {
-  margin: 0 5px;
-  font-size: 1.2rem;
-  color: #4f46e5;
-  transition: color 0.2s;
-}
-
-.sidebar-social a:hover {
-  color: #1e40af;
-}
-</style>
