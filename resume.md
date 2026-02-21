@@ -95,7 +95,8 @@ that supports operational and strategic performance.
 <ul class="education-list">
 <li><strong>Generative AI</strong> — Open University of Kenya (2026)</li>
 <li><strong>Data Analytics</strong> — Everything Data Africa (2025)</li>
-<li><strong>Financial Modeling & Business Intelligence Certifications</strong> — Corporate Finance Institute (2022)</li>
+<li><strong>Financial Modeling & Valuation Analyst </strong> — Corporate Finance Institute (2022)</li>
+<li><strong>Business Intelligence Data Analyst</strong> — Corporate Finance Institute (2022)</li> 
 <li><strong>B.A. Economics & Sociology</strong> — Kisii University</li>
 </ul>
 </section>
