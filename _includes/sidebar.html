@@ -1,35 +1,42 @@
 <div class="sidebar">
   <!-- Profile Section -->
   <div class="sidebar-profile text-center">
-    <img src="{{ '/assets/images/profile-wawira-muchiri.png' | relative_url }}" alt="Rosalyne Muchiri" class="profile-pic rounded-circle">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Your Name" class="profile-pic rounded-circle">
     <h3 class="profile-name">Rosalyne Muchiri</h3>
     <p class="profile-title">Data & AI Automation Specialist</p>
   </div>
 
   <!-- Navigation -->
-  <ul class="sidebar-nav mt-4">
+  <ul class="sidebar-nav">
     <li>
-      <a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Home</a>
+      <a href="{{ '/' | relative_url }}">
+        <i class="fas fa-home"></i> Home
+      </a>
+    </li>
+    <li class="active">
+      <a href="{{ '/resume/' | relative_url }}">
+        <i class="fas fa-file-alt"></i> Resume
+      </a>
     </li>
     <li>
-      <a href="{{ '/resume/' | relative_url }}"><i class="fas fa-file-alt"></i> Resume</a>
+      <a href="{{ '/categories/' | relative_url }}">
+        <i class="fas fa-list"></i> Categories
+      </a>
     </li>
     <li>
-      <a href="{{ '/projects/' | relative_url }}"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="{{ '/tags/' | relative_url }}">
+        <i class="fas fa-tag"></i> Tags
+      </a>
     </li>
     <li>
-      <a href="{{ '/categories/' | relative_url }}"><i class="fas fa-list"></i> Categories</a>
-    </li>
-    <li>
-      <a href="{{ '/tags/' | relative_url }}"><i class="fas fa-tag"></i> Tags</a>
-    </li>
-    <li>
-      <a href="{{ '/archives/' | relative_url }}"><i class="fas fa-archive"></i> Archives</a>
+      <a href="{{ '/archives/' | relative_url }}">
+        <i class="fas fa-archive"></i> Archives
+      </a>
     </li>
   </ul>
 
-  <!-- Social Links (bottom) -->
-  <div class="sidebar-social mt-auto text-center">
+  <!-- Social Links -->
+  <div class="sidebar-social mt-4 text-center">
     <a href="https://linkedin.com/in/rosalyne" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/rosalyne" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://twitter.com/rosalyne" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -37,20 +44,17 @@
 </div>
 
 <style>
-/* Keep Chirpy default structure but customize appearance */
 .sidebar {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .sidebar-profile img.profile-pic {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border: 3px solid #4f46e5; /* theme accent */
+  border: 3px solid #4f46e5; /* accent color */
   margin-bottom: 10px;
 }
 
@@ -69,7 +73,6 @@
   list-style: none;
   padding: 0;
   margin-top: 20px;
-  flex-grow: 1;
 }
 
 .sidebar-nav li {
@@ -90,7 +93,8 @@
   margin-right: 8px;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li a:hover,
+.sidebar-nav li.active a {
   background-color: #4f46e5;
   color: #fff;
 }
