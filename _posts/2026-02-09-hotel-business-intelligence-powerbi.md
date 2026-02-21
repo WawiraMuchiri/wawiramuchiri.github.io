@@ -1,5 +1,5 @@
 ---
-title: "Hotel Performance Dashboard – Business Intelligence Project With Power BI"
+title: "Hotel Performance Dashboard – Business Intelligence With Power BI"
 date: 2026-02-09
 categories: [Business Intelligence, Power BI]
 tags: [Power BI, Data Analytics, Business intelligence]
